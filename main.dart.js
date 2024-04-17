@@ -87734,10 +87734,10 @@ i=c.d
 i=A.a3("\\begin{aligned}\\alpha_2 &= \\text{Re}  \\left\\{ \\gamma_2 \\right\\} \\\\&= \\text{Re}  \\left\\{ "+i.bv(i.cZ,B.l)+" \\right\\}\\\\&= "+A.L(c.d.af,!1,!1)+"\\end{aligned}")
 j=c.d
 return A.a([[b0],[q,l],[m,n],[o,p],[k,g],[f,d],[e,A.a([h,i,A.a3("\\begin{aligned}\\beta_2 &= \\text{Im}  \\left\\{ \\gamma_2 \\right\\} \\\\&= \\text{Im}  \\left\\{ "+j.bv(j.cZ,B.l)+" \\right\\}\\\\&= "+A.L(c.d.cA,!1,!1)+"\\end{aligned}")],s)],[A.a([A.b3("\\text{The skin depth } \\delta="+A.L(c.d.e9,!1,!1)+" \\, \\text{m}")],s),A.a([A.a3("\\begin{aligned}\\delta &= \\frac{1}{\\alpha_2}= \\frac{1}{"+A.L(c.d.af,!1,!1)+"}\\\\&= "+A.L(c.d.e9,!1,!1)+a9)],s)],[A.a([A.b3("\\text{The wavelength } \\lambda_2="+A.L(c.d.cd,!1,!1)+" \\, \\text{m}")],s),A.a([A.a3("\\begin{aligned}\\lambda_2 &= \\frac{2 \\pi}{\\beta_2}= \\frac{2\\pi}{"+A.L(c.d.cA,!1,!1)+"}\\\\&= "+A.L(c.d.cd,!1,!1)+a9)],s)],[A.a([A.b3("\\text{The phase velocity }v_\\text{p2}="+A.L(c.d.es,!1,!1)+" \\, \\text{m/s}")],s),A.a([A.a3(a6+A.L(c.d.cV,!1,!1)+"}{"+A.L(c.d.cA,!1,!1)+"}\\\\&= "+A.L(c.d.es,!1,!1)+a7),A.b3("\\text{Alternatively,}"),A.a3(a8+A.L(c.d.eX,!1,!1)+" \\times "+A.L(c.d.cd,!1,!1)+"\\\\&= "+A.L(c.d.es,!1,!1)+a7)],s)]],r)}},
-N(i3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3=this,b4=null,b5=" \\, \\text{rad} = ",b6="\\text{When } \\mu_1 = \\mu_2 \\text{, apply the following equation}",b7="\\text{where}",b8="\\text{When } \\mu_1 \\ne \\mu_2 \\text{, apply the following equation}",b9="\\arcsin(z)=\\frac{1}{j}\\ln(jz+\\sqrt{1-z^2})",c0="\\text{Apply the Snell's law,}",c1="\\frac{\\sin(\\theta_t)}{\\sin(\\theta_i)}=\\sqrt{\\frac{\\varepsilon_1\\mu_1}{\\varepsilon_2\\mu_2}}",c2="\\text{The angle of transmission can be derived as}",c3="\\cdot \\sqrt{ \\frac{ ",c4="Apply",c5="\\vec{H}_{i,\\|} = [",c6=") \\mathbf{x} + (",c7="\\vec{H}_{i,\\perp} = [",c8="Cross Product",c9="\\overrightarrow{H}  = \\frac{1}{\\eta } \\overrightarrow{a_{\\text k}}  \\times \\overrightarrow{E}  ",d0="where",d1="Use cofactor expansion",d2="Thus,",d3="\\vec{E}_{r,\\|} = [",d4=") \\mathbf{x} - (",d5="\\vec{E}_{r,\\perp} = [",d6="\\vec{E}_{r} = [\\hat{E}_{or,\\|}(\\cos \\theta_r \\vec{a}_{x}+\\sin \\theta_r \\vec{a}_{z})+\\hat{E}_{or,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})}",d7="\\vec{E}_{t,\\|} = [",d8="\\vec{E}_{t,\\perp} = [",d9="\\vec{E}_{t} = [\\hat{E}_{ot,\\|}(\\cos \\theta_t \\vec{a}_{x}-\\sin \\theta_t \\vec{a}_{z})+\\hat{E}_{ot,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}",e0="\\vec{H}_{t,\\|} = [",e1="\\vec{H}_{t,\\perp} = [",e2="\\overrightarrow{S}  = \\frac{1}{2} \\text{Re}  \\left\\{ \\overrightarrow{E}  \\times \\overrightarrow{H}  \\vphantom{}^{*}   \\right\\} ",e3="0",e4="Alternatively, ",e5=") \\frac{1}{2} \\left[ ",e6="^2 \\right] \\frac{1}{",e7=" \\, \\text{rad/m}",e8=" \\, \\text{rad/m}\\end{aligned}",e9=" \\, \\text{m/s}\\end{aligned}",f0="\\begin{aligned}\\sin(\\theta_{t}) &=  \\sin \\theta _i \\cdot \\sqrt{\\frac{\\mu_1 \\varepsilon_1}{\\mu_2 \\varepsilon_2} }  \\\\&=  \\sin ",f1=" \\overrightarrow{a_{\\text x}}  + ",f2=" \\overrightarrow{a_{\\text z}} ",f3=" \\overrightarrow{a_{\\text z}} ]",f4=" \\overrightarrow{a_{\\text y}} ]",f5=" \\overrightarrow{a_{\\text y}}  + ",f6=" \\overrightarrow{a_{\\text z}} ] ",f7=" \\overrightarrow{a_{\\text y}} ] ",f8="+ \\overrightarrow{a_{\\text y}}  ",f9=" + \\overrightarrow{a_{\\text z}}  ",g0="\\overrightarrow{a_{\\text x}}  ",g1=" e^{-j(kx_i\\mathbf{x} +kz_i\\mathbf{z})}",g2="\\overrightarrow{a_{\\text y}}  ",g3="\\overrightarrow{a_{\\text z}}  ",g4=" \\right) ^{*}  \\\\&= ",g5="\\begin{aligned}\\overrightarrow{E}  \\times \\overrightarrow{H}  \\vphantom{}^{*}   &= \\left( ",g6=" \\right) \\\\& \\times \\left( ",g7=" \\right) \\\\&= \\det \\begin{bmatrix} \\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}}  \\\\",g8="\\\\\\end{bmatrix} \\end{aligned}",g9="\\begin{aligned}\\overrightarrow{E}  \\times \\overrightarrow{H}  \\vphantom{}^{*}   &= \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} ",h0="\\\\\\end{bmatrix} - \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} ",h1="\\\\\\end{bmatrix} + \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} ",h2="\\\\\\end{bmatrix} \\\\&=\\overrightarrow{a_{\\text x}}  ",h3=" + \\overrightarrow{a_{\\text y}}  ",h4="\\begin{aligned}\\overrightarrow{S}_i = \\frac{1}{2} \\text{Re}  \\left\\{ \\overrightarrow{a_{\\text x}}  ",h5=" \\right\\}= \\overrightarrow{a_{\\text x}}  ",h6="} \\\\&=\\overrightarrow{a_{\\text x}}  ",h7=" \\quad \\mathrm{W}/\\mathrm{m}^{2} \\end{aligned}",h8=" e^{-j(kx_r\\mathbf{x} -kz_r\\mathbf{z})}",h9=" e^{-j(kx_t\\mathbf{x} +kz_t\\mathbf{z})}",i0=A.a([],t.ew),i1=A.c0("Parameters of medium 1 (lossless)"),i2=b3.d
-i2===$&&A.d()
+N(i4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3=this,b4=null,b5=" \\, \\text{rad} = ",b6="\\text{When } \\mu_1 = \\mu_2 \\text{, apply the following equation}",b7="\\text{where}",b8="\\text{When } \\mu_1 \\ne \\mu_2 \\text{, apply the following equation}",b9="\\arcsin(z)=\\frac{1}{j}\\ln(jz+\\sqrt{1-z^2})",c0="\\text{Apply the Snell's law,}",c1="\\frac{\\sin(\\theta_t)}{\\sin(\\theta_i)}=\\sqrt{\\frac{\\varepsilon_1\\mu_1}{\\varepsilon_2\\mu_2}}",c2="\\text{The angle of transmission can be derived as}",c3="\\cdot \\sqrt{ \\frac{ ",c4="Apply",c5="\\vec{H}_{i,\\|} = [",c6=") \\mathbf{x} + (",c7="\\vec{H}_{i,\\perp} = [",c8="Cross Product",c9="\\overrightarrow{H}  = \\frac{1}{\\eta } \\overrightarrow{a_{\\text k}}  \\times \\overrightarrow{E}  ",d0="where",d1="Use cofactor expansion",d2="Thus,",d3="\\vec{E}_{r,\\|} = [",d4=") \\mathbf{x} - (",d5="\\vec{E}_{r,\\perp} = [",d6="\\vec{E}_{r} = [\\hat{E}_{or,\\|}(\\cos \\theta_r \\vec{a}_{x}+\\sin \\theta_r \\vec{a}_{z})+\\hat{E}_{or,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})}",d7="\\vec{E}_{t,\\|} = [",d8="\\vec{E}_{t,\\perp} = [",d9="\\vec{E}_{t} = [\\hat{E}_{ot,\\|}(\\cos \\theta_t \\vec{a}_{x}-\\sin \\theta_t \\vec{a}_{z})+\\hat{E}_{ot,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}",e0="\\vec{H}_{t,\\|} = [",e1="\\vec{H}_{t,\\perp} = [",e2="\\overrightarrow{S}  = \\frac{1}{2} \\text{Re}  \\left\\{ \\overrightarrow{E}  \\times \\overrightarrow{H}  \\vphantom{}^{*}   \\right\\} ",e3="0",e4="Alternatively, ",e5=") \\frac{1}{2} \\left[ ",e6="^2 \\right] \\frac{1}{",e7=" \\, \\text{rad/m}",e8=" \\, \\text{rad/m}\\end{aligned}",e9=" \\, \\text{m/s}\\end{aligned}",f0="\\begin{aligned}\\sin(\\theta_{t}) &=  \\sin \\theta _i \\cdot \\sqrt{\\frac{\\mu_1 \\varepsilon_1}{\\mu_2 \\varepsilon_2} }  \\\\&=  \\sin ",f1=" \\overrightarrow{a_{\\text x}}  + ",f2=" \\overrightarrow{a_{\\text z}} ",f3=" \\overrightarrow{a_{\\text z}} ]",f4=" \\overrightarrow{a_{\\text y}} ]",f5=" \\overrightarrow{a_{\\text y}}  + ",f6=" \\overrightarrow{a_{\\text z}} ] ",f7=" \\overrightarrow{a_{\\text y}} ] ",f8="+ \\overrightarrow{a_{\\text y}}  ",f9=" + \\overrightarrow{a_{\\text z}}  ",g0=" \\quad \\mathrm{W}/\\mathrm{m}^{2} ",g1="\\overrightarrow{a_{\\text x}}  ",g2=" e^{-j(kx_i\\mathbf{x} +kz_i\\mathbf{z})}",g3="\\overrightarrow{a_{\\text y}}  ",g4="\\overrightarrow{a_{\\text z}}  ",g5=" \\right) ^{*}  \\\\&= ",g6="\\begin{aligned}\\overrightarrow{E}  \\times \\overrightarrow{H}  \\vphantom{}^{*}   &= \\left( ",g7=" \\right) \\\\& \\times \\left( ",g8=" \\right) \\\\&= \\det \\begin{bmatrix} \\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}}  \\\\",g9="\\\\\\end{bmatrix} \\end{aligned}",h0="\\begin{aligned}\\overrightarrow{E}  \\times \\overrightarrow{H}  \\vphantom{}^{*}   &= \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} ",h1="\\\\\\end{bmatrix} - \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} ",h2="\\\\\\end{bmatrix} + \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} ",h3="\\\\\\end{bmatrix} \\\\&=\\overrightarrow{a_{\\text x}}  ",h4=" + \\overrightarrow{a_{\\text y}}  ",h5="\\begin{aligned}\\overrightarrow{S}_i = \\frac{1}{2} \\text{Re}  \\left\\{ \\overrightarrow{a_{\\text x}}  ",h6=" \\right\\}= \\overrightarrow{a_{\\text x}}  ",h7="} \\\\&=\\overrightarrow{a_{\\text x}}  ",h8=" \\quad \\mathrm{W}/\\mathrm{m}^{2} \\end{aligned}",h9=" e^{-j(kx_r\\mathbf{x} -kz_r\\mathbf{z})}",i0=" e^{-j(kx_t\\mathbf{x} +kz_t\\mathbf{z})}",i1=A.a([],t.ew),i2=A.c0("Parameters of medium 1 (lossless)"),i3=b3.d
+i3===$&&A.d()
 s=t.p
-i2=A.a([A.b3("\\text{The permittivity }\\varepsilon_{1}= "+i2.H(i2.bR)+" \\, \\text{F/m}")],s)
+i3=A.a([A.b3("\\text{The permittivity }\\varepsilon_{1}= "+i3.H(i3.bR)+" \\, \\text{F/m}")],s)
 r=A.L(b3.d.aP,!1,!1)
 q=A.L(88541878128e-22,!1,!1)
 p=b3.d
@@ -87763,37 +87763,37 @@ k=A.a([A.b3("\\text{The phase constant }\\beta_{1}="+A.L(b3.d.dR,!1,!1)+e7)],s)
 h=A.a3("\\gamma_{1} = \\alpha_{1} + j \\beta_{1}")
 g=b3.d
 f=t.X6
-i0.push(A.a([[i1],[i2,p],[q,r],[o,m],[n,i],[j,l],[k,A.a([h,A.a3("\\begin{aligned}\\beta_{1} &= \\text{Im}  \\left\\{ \\gamma_{1} \\right\\} \\\\&= \\text{Im}  \\left\\{ "+g.H(g.am)+" \\right\\}\\\\&= "+A.L(b3.d.dR,!1,!1)+e8)],s)],[A.a([A.b3("\\text{The wavelength } \\lambda_{1}="+A.L(b3.d.c5,!1,!1)+" \\, \\text{m}")],s),A.a([A.a3("\\begin{aligned}\\lambda_1 &= \\frac{2 \\pi}{\\beta_1}\\\\&= \\frac{2\\pi}{"+A.L(b3.d.dR,!1,!1)+"}\\\\&= "+A.L(b3.d.c5,!1,!1)+"  \\, \\text{m}\\end{aligned}")],s)],[A.a([A.b3("\\text{The phase velocity } v_\\text{p1}="+A.L(b3.d.B,!1,!1)+" \\, \\text{m/s}")],s),A.a([A.a3("\\begin{aligned}v_\\text{p1} &= \\frac{\\omega}{\\beta_1}\\\\&= \\frac{"+A.L(b3.d.cV,!1,!1)+"}{"+A.L(b3.d.dR,!1,!1)+"}\\\\&= "+A.L(b3.d.B,!1,!1)+e9),A.c0("Alternatively,"),A.a3("\\begin{aligned}v_\\text{p1} &= f\\lambda_1\\\\&= "+A.L(b3.d.eX,!1,!1)+" \\times "+A.L(b3.d.c5,!1,!1)+"\\\\&= "+A.L(b3.d.B,!1,!1)+e9)],s)]],f))
-i0.push(b3.ahj())
-i1=b3.d
-if(!i1.fS)i0.push(A.a([[A.b3("\\text{The frequency of incident wave } f = "+A.L(i1.eX,!1,!1)+" \\, \\text{Hz}")],[A.a([A.b3("\\text{More details on frequency}")],s),A.a([A.a3("\\begin{aligned}f &= \\frac{k_i}{2\\pi \\sqrt{\\mu_1 \\varepsilon_1} } = \\frac{\\sqrt{k_x^2+k_z^2}}{2\\pi \\sqrt{\\mu_1 \\varepsilon_1} } \\\\&=\\frac{\\sqrt{"+A.L(b3.d.dc,!1,!1)+"^2+"+A.L(b3.d.p,!1,!1)+"^2}}{2\\pi\\sqrt{"+A.L(b3.d.b5*0.00000125663706212,!1,!1)+" \\times "+A.L(b3.d.aP*88541878128e-22,!1,!1)+"}}\\\\&="+A.L(b3.d.eX,!1,!1)+" \\, \\text{Hz}\\end{aligned}")],s)]],f))
-i1=b3.d
-if(!i1.dK){i1=i1.hv(i1.S,B.da)
+i1.push(A.a([[i2],[i3,p],[q,r],[o,m],[n,i],[j,l],[k,A.a([h,A.a3("\\begin{aligned}\\beta_{1} &= \\text{Im}  \\left\\{ \\gamma_{1} \\right\\} \\\\&= \\text{Im}  \\left\\{ "+g.H(g.am)+" \\right\\}\\\\&= "+A.L(b3.d.dR,!1,!1)+e8)],s)],[A.a([A.b3("\\text{The wavelength } \\lambda_{1}="+A.L(b3.d.c5,!1,!1)+" \\, \\text{m}")],s),A.a([A.a3("\\begin{aligned}\\lambda_1 &= \\frac{2 \\pi}{\\beta_1}\\\\&= \\frac{2\\pi}{"+A.L(b3.d.dR,!1,!1)+"}\\\\&= "+A.L(b3.d.c5,!1,!1)+"  \\, \\text{m}\\end{aligned}")],s)],[A.a([A.b3("\\text{The phase velocity } v_\\text{p1}="+A.L(b3.d.B,!1,!1)+" \\, \\text{m/s}")],s),A.a([A.a3("\\begin{aligned}v_\\text{p1} &= \\frac{\\omega}{\\beta_1}\\\\&= \\frac{"+A.L(b3.d.cV,!1,!1)+"}{"+A.L(b3.d.dR,!1,!1)+"}\\\\&= "+A.L(b3.d.B,!1,!1)+e9),A.c0("Alternatively,"),A.a3("\\begin{aligned}v_\\text{p1} &= f\\lambda_1\\\\&= "+A.L(b3.d.eX,!1,!1)+" \\times "+A.L(b3.d.c5,!1,!1)+"\\\\&= "+A.L(b3.d.B,!1,!1)+e9)],s)]],f))
+i1.push(b3.ahj())
 i2=b3.d
-i2=A.b3("\\text{The incident angle } \\theta_{i} = "+i1+b5+i2.hv(i2.S,B.P))
-i1=A.a([A.b3("\\text{More details on incident angle}")],s)
+if(!i2.fS)i1.push(A.a([[A.b3("\\text{The frequency of incident wave } f = "+A.L(i2.eX,!1,!1)+" \\, \\text{Hz}")],[A.a([A.b3("\\text{More details on frequency}")],s),A.a([A.a3("\\begin{aligned}f &= \\frac{k_i}{2\\pi \\sqrt{\\mu_1 \\varepsilon_1} } = \\frac{\\sqrt{k_x^2+k_z^2}}{2\\pi \\sqrt{\\mu_1 \\varepsilon_1} } \\\\&=\\frac{\\sqrt{"+A.L(b3.d.dc,!1,!1)+"^2+"+A.L(b3.d.p,!1,!1)+"^2}}{2\\pi\\sqrt{"+A.L(b3.d.b5*0.00000125663706212,!1,!1)+" \\times "+A.L(b3.d.aP*88541878128e-22,!1,!1)+"}}\\\\&="+A.L(b3.d.eX,!1,!1)+" \\, \\text{Hz}\\end{aligned}")],s)]],f))
+i2=b3.d
+if(!i2.dK){i2=i2.hv(i2.S,B.da)
+i3=b3.d
+i3=A.b3("\\text{The incident angle } \\theta_{i} = "+i2+b5+i3.hv(i3.S,B.P))
+i2=A.a([A.b3("\\text{More details on incident angle}")],s)
 r=A.L(b3.d.dc,!1,!1)
 q=A.L(b3.d.p,!1,!1)
 p=b3.d
 p=p.hv(p.S,B.da)
 o=b3.d
-i0.push(A.a([[i2],[i1,A.a([A.a3("\\begin{aligned}\\theta_{i} &= \\arctan(k_x/k_z) = \\arctan( "+r+"/"+q+")\\\\& = "+p+b5+o.hv(o.S,B.P)+"\\end{aligned}")],s)]],f))}i1=b3.d
-if(i1.b5*0.00000125663706212===i1.cc*0.00000125663706212){i1=A.b3(b6)
-i2=b3.d
-i2=i2.H(i2.bP)
+i1.push(A.a([[i3],[i2,A.a([A.a3("\\begin{aligned}\\theta_{i} &= \\arctan(k_x/k_z) = \\arctan( "+r+"/"+q+")\\\\& = "+p+b5+o.hv(o.S,B.P)+"\\end{aligned}")],s)]],f))}i2=b3.d
+if(i2.b5*0.00000125663706212===i2.cc*0.00000125663706212){i2=A.b3(b6)
+i3=b3.d
+i3=i3.H(i3.bP)
 r=b3.d
-e=A.a([i1,A.a3("\\begin{aligned}\\theta_{B\\|} &= \\arctan(\\sqrt{\\varepsilon_2/\\varepsilon_1})\\\\&=\\arctan(\\sqrt{"+i2+"/"+r.H(r.bR)+"})&= "+A.i(b3.d.gIb())+b5+A.i(b3.d.gIc())+"\\end{aligned}")],s)
+e=A.a([i2,A.a3("\\begin{aligned}\\theta_{B\\|} &= \\arctan(\\sqrt{\\varepsilon_2/\\varepsilon_1})\\\\&=\\arctan(\\sqrt{"+i3+"/"+r.H(r.bR)+"})&= "+A.i(b3.d.gIb())+b5+A.i(b3.d.gIc())+"\\end{aligned}")],s)
 if(Math.abs(b3.d.dQ.b)>0.000001){e.push(A.b3(b7))
 e.push(A.a3("\\arctan(z)=\\frac{1}{2j}\\ln(\\frac{j-z}{j+z})"))
-i1=b3.d
-i1=A.ft(i1.bP.bE(0,i1.bR))
-d=b3.d.bv(i1,B.l)
-c=new A.as(0,1).L(0,i1).bE(0,new A.as(0,1).O(0,i1))
-e.push(A.a3("\\begin{aligned}\\arctan("+d+")&= \\frac{1}{2j}\\ln(\\frac{j-"+d+"}{j+"+d+"})\\\\&= \\frac{1}{2j}\\ln("+b3.d.bv(c,B.l)+")\\\\&= "+b3.d.bv(A.azt(i1),B.l)+b5+b3.d.vF(A.azt(i1),!0)+"\\end{aligned}"))}}else{c=A.azu(i1.dQ)
-b=b3.d.H(c)
-i1=A.b3(b8)
 i2=b3.d
-i2=i2.H(i2.bR)
+i2=A.ft(i2.bP.bE(0,i2.bR))
+d=b3.d.bv(i2,B.l)
+c=new A.as(0,1).L(0,i2).bE(0,new A.as(0,1).O(0,i2))
+e.push(A.a3("\\begin{aligned}\\arctan("+d+")&= \\frac{1}{2j}\\ln(\\frac{j-"+d+"}{j+"+d+"})\\\\&= \\frac{1}{2j}\\ln("+b3.d.bv(c,B.l)+")\\\\&= "+b3.d.bv(A.azt(i2),B.l)+b5+b3.d.vF(A.azt(i2),!0)+"\\end{aligned}"))}}else{c=A.azu(i2.dQ)
+b=b3.d.H(c)
+i2=A.b3(b8)
+i3=b3.d
+i3=i3.H(i3.bR)
 r=A.L(b3.d.cc*0.00000125663706212,!1,!1)
 q=b3.d
 q=q.H(q.bP)
@@ -87801,37 +87801,37 @@ p=A.L(b3.d.b5*0.00000125663706212,!1,!1)
 o=b3.d
 o=o.H(o.bR)
 n=b3.d
-e=A.a([i1,A.a3("\\begin{aligned}\\sin(\\theta_{B\\|}) &= \\sqrt{\\frac{1-\\left(\\varepsilon_1 \\mu_2 / \\varepsilon_2 \\mu_1\\right)}{1-(\\varepsilon_1 / \\varepsilon_2)^2}}\\\\&=\\sqrt{\\frac{1-("+i2+" \\times "+r+" / "+q+" \\times "+p+")}{1-("+o+" / "+n.H(n.bP)+")^2}}\\\\&= "+b+"\\end{aligned}"),A.a3("\\begin{aligned}\\theta_{B\\|} &= \\arcsin("+b+")\\\\&= "+A.i(b3.d.gIb())+b5+A.i(b3.d.gIc())+"\\end{aligned}")],s)
+e=A.a([i2,A.a3("\\begin{aligned}\\sin(\\theta_{B\\|}) &= \\sqrt{\\frac{1-\\left(\\varepsilon_1 \\mu_2 / \\varepsilon_2 \\mu_1\\right)}{1-(\\varepsilon_1 / \\varepsilon_2)^2}}\\\\&=\\sqrt{\\frac{1-("+i3+" \\times "+r+" / "+q+" \\times "+p+")}{1-("+o+" / "+n.H(n.bP)+")^2}}\\\\&= "+b+"\\end{aligned}"),A.a3("\\begin{aligned}\\theta_{B\\|} &= \\arcsin("+b+")\\\\&= "+A.i(b3.d.gIb())+b5+A.i(b3.d.gIc())+"\\end{aligned}")],s)
 if(Math.abs(b3.d.dQ.b)>0.000001){e.push(A.b3(b7))
 e.push(A.a3(b9))
-e.push(A.a3(b3.F7(c)))}}i0.push(A.a([[A.b3("\\text{The Brewster's angle }\\theta_{B\\|} = "+A.i(b3.d.gIb())+"\\,\\text{rad} = "+A.i(b3.d.gIc()))],[A.a([A.b3("\\text{More details on the Brewster's angle } \\theta_{B\\|}")],s),e]],f))
-i1=b3.d
-if(i1.b5*0.00000125663706212===i1.cc*0.00000125663706212){i1=A.b3(b6)
+e.push(A.a3(b3.F7(c)))}}i1.push(A.a([[A.b3("\\text{The Brewster's angle }\\theta_{B\\|} = "+A.i(b3.d.gIb())+"\\,\\text{rad} = "+A.i(b3.d.gIc()))],[A.a([A.b3("\\text{More details on the Brewster's angle } \\theta_{B\\|}")],s),e]],f))
 i2=b3.d
-i2=i2.H(i2.bP)
+if(i2.b5*0.00000125663706212===i2.cc*0.00000125663706212){i2=A.b3(b6)
+i3=b3.d
+i3=i3.H(i3.bP)
 r=b3.d
-a=A.a([i1,A.a3("\\begin{aligned}\\theta_{c} &= \\arcsin(\\sqrt{\\frac{\\varepsilon_2}{\\varepsilon_1}})\\\\&= \\arcsin(\\sqrt{\\frac{ "+i2+"}{ "+r.H(r.bR)+"}})\\\\&= "+A.i(b3.d.gId())+b5+A.i(b3.d.gIe())+"\\end{aligned}")],s)
+a=A.a([i2,A.a3("\\begin{aligned}\\theta_{c} &= \\arcsin(\\sqrt{\\frac{\\varepsilon_2}{\\varepsilon_1}})\\\\&= \\arcsin(\\sqrt{\\frac{ "+i3+"}{ "+r.H(r.bR)+"}})\\\\&= "+A.i(b3.d.gId())+b5+A.i(b3.d.gIe())+"\\end{aligned}")],s)
 if(Math.abs(b3.d.da.b)>0.000001){a.push(A.b3(b7))
 a.push(A.a3(b9))
-i1=b3.d
-a.push(A.a3(b3.F7(A.ft(i1.bP.bE(0,i1.bR)))))}}else{i1=A.b3(b8)
-i2=A.L(b3.d.cc*0.00000125663706212,!1,!1)
+i2=b3.d
+a.push(A.a3(b3.F7(A.ft(i2.bP.bE(0,i2.bR)))))}}else{i2=A.b3(b8)
+i3=A.L(b3.d.cc*0.00000125663706212,!1,!1)
 r=b3.d
 r=r.H(r.bP)
 q=A.L(b3.d.b5*0.00000125663706212,!1,!1)
 p=b3.d
-a=A.a([i1,A.a3("\\begin{aligned}\\theta_{c} &= \\arcsin(\\sqrt{\\frac{\\mu_2\\varepsilon_2}{\\mu_1\\varepsilon_1}})\\\\&= \\arcsin(\\sqrt{\\frac{"+i2+" \\times "+r+"}{"+q+" \\times "+p.H(p.bR)+"}})\\\\&= "+A.i(b3.d.gId())+b5+A.i(b3.d.gIe())+"\\end{aligned}")],s)
+a=A.a([i2,A.a3("\\begin{aligned}\\theta_{c} &= \\arcsin(\\sqrt{\\frac{\\mu_2\\varepsilon_2}{\\mu_1\\varepsilon_1}})\\\\&= \\arcsin(\\sqrt{\\frac{"+i3+" \\times "+r+"}{"+q+" \\times "+p.H(p.bR)+"}})\\\\&= "+A.i(b3.d.gId())+b5+A.i(b3.d.gIe())+"\\end{aligned}")],s)
 if(Math.abs(b3.d.da.b)>0.000001){a.push(A.b3(b7))
 a.push(A.a3(b9))
-i1=b3.d
-a.push(A.a3(b3.F7(A.ft(i1.bP.bE(0,i1.bR)))))}}i0.push(A.a([[A.b3("\\text{The critical angles } \\theta_{c} = "+A.i(b3.d.gId())+b5+A.i(b3.d.gIe()))],[A.a([A.b3("\\text{More details on the critical angle } \\theta_{c}")],s),a]],f))
-i1=b3.d.S
-i1=Math.sin(i1.gbW(i1))
 i2=b3.d
-c=new A.as(i1,0).I(0,A.ft(new A.as(i2.b5*0.00000125663706212*(i2.aP*88541878128e-22)/(i2.cc*0.00000125663706212),0).bE(0,i2.bP)))
+a.push(A.a3(b3.F7(A.ft(i2.bP.bE(0,i2.bR)))))}}i1.push(A.a([[A.b3("\\text{The critical angles } \\theta_{c} = "+A.i(b3.d.gId())+b5+A.i(b3.d.gIe()))],[A.a([A.b3("\\text{More details on the critical angle } \\theta_{c}")],s),a]],f))
+i2=b3.d.S
+i2=Math.sin(i2.gbW(i2))
+i3=b3.d
+c=new A.as(i2,0).I(0,A.ft(new A.as(i3.b5*0.00000125663706212*(i3.aP*88541878128e-22)/(i3.cc*0.00000125663706212),0).bE(0,i3.bP)))
 a0=b3.d.VO(c,!0)
-i2=A.b3(c0)
-i1=A.a3(c1)
+i3=A.b3(c0)
+i2=A.a3(c1)
 r=A.b3(c2)
 q=b3.d
 q=q.m0(q.S)
@@ -87839,20 +87839,20 @@ p=A.L(b3.d.b5*0.00000125663706212,!1,!1)
 o=A.L(b3.d.aP*88541878128e-22,!1,!1)
 n=A.L(b3.d.cc*0.00000125663706212,!1,!1)
 m=b3.d
-a1=A.a([i2,i1,r,A.a3(f0+q+c3+p+" \\cdot "+o+"}{"+n+" \\cdot "+m.H(m.bP)+"} }  \\\\&="+b3.d.H(c)+"\\end{aligned}")],s)
-i1=b3.d
-if(Math.abs(i1.aV.b)>1e-9){a1.push(A.c0(c4))
-a1.push(A.a3(b9))
-a1.push(A.a3("\\begin{aligned}\\theta_{t} &=\\arcsin("+a0+")  \\\\&=\\frac{1}{j}\\ln(j"+a0+"+\\sqrt{1-("+a0+")^2})\\\\&= "+A.i(b3.d.gAz())+" = "+A.i(b3.d.gIa())+"\\end{aligned}"))}else a1.push(A.a3("\\theta_{t} = \\arcsin("+a0+") = "+A.i(i1.gAz())+" = "+A.i(b3.d.gIa())))
-i0.push(A.a([[A.b3("\\text{The angle of transmission } \\theta_{t} = "+A.i(b3.d.gAz())+" = "+A.i(b3.d.gIa()))],[A.a([A.b3("\\text{More details on angle of transmission}")],s),a1]],f))
-i1=b3.d
-if(Math.abs(i1.aV.b)>0.000001){i1=i1.S
-i1=Math.sin(i1.gbW(i1))
+a1=A.a([i3,i2,r,A.a3(f0+q+c3+p+" \\cdot "+o+"}{"+n+" \\cdot "+m.H(m.bP)+"} }  \\\\&="+b3.d.H(c)+"\\end{aligned}")],s)
 i2=b3.d
-c=new A.as(i1,0).I(0,A.ft(new A.as(i2.b5*0.00000125663706212*(i2.aP*88541878128e-22)/(i2.cc*0.00000125663706212),0).bE(0,i2.bP)))
+if(Math.abs(i2.aV.b)>1e-9){a1.push(A.c0(c4))
+a1.push(A.a3(b9))
+a1.push(A.a3("\\begin{aligned}\\theta_{t} &=\\arcsin("+a0+")  \\\\&=\\frac{1}{j}\\ln(j"+a0+"+\\sqrt{1-("+a0+")^2})\\\\&= "+A.i(b3.d.gAz())+" = "+A.i(b3.d.gIa())+"\\end{aligned}"))}else a1.push(A.a3("\\theta_{t} = \\arcsin("+a0+") = "+A.i(i2.gAz())+" = "+A.i(b3.d.gIa())))
+i1.push(A.a([[A.b3("\\text{The angle of transmission } \\theta_{t} = "+A.i(b3.d.gAz())+" = "+A.i(b3.d.gIa()))],[A.a([A.b3("\\text{More details on angle of transmission}")],s),a1]],f))
+i2=b3.d
+if(Math.abs(i2.aV.b)>0.000001){i2=i2.S
+i2=Math.sin(i2.gbW(i2))
+i3=b3.d
+c=new A.as(i2,0).I(0,A.ft(new A.as(i3.b5*0.00000125663706212*(i3.aP*88541878128e-22)/(i3.cc*0.00000125663706212),0).bE(0,i3.bP)))
 a0=b3.d.VO(c,!0)
-i2=A.b3("\\text{The cosine of angle of transmission } \\cos(\\theta_{t}) = "+b3.d.gm1())
-i1=A.a([A.b3("\\text{More details on } \\cos(\\theta_t)")],s)
+i3=A.b3("\\text{The cosine of angle of transmission } \\cos(\\theta_{t}) = "+b3.d.gm1())
+i2=A.a([A.b3("\\text{More details on } \\cos(\\theta_t)")],s)
 r=A.c0("Even without knowing the angle of transmission, the cosine of angle of transmission can be directly derived as")
 q=A.b3(c0)
 p=A.a3(c1)
@@ -87863,18 +87863,18 @@ m=A.L(b3.d.b5*0.00000125663706212,!1,!1)
 l=A.L(b3.d.aP*88541878128e-22,!1,!1)
 k=A.L(b3.d.cc*0.00000125663706212,!1,!1)
 j=b3.d
-i0.push(A.a([[i2],[i1,A.a([r,q,p,o,A.a3(f0+n+c3+m+" \\cdot "+l+"}{"+k+" \\cdot "+j.H(j.bP)+"} }  \\\\&="+a0+"\\end{aligned}"),A.a3("\\begin{aligned}\\cos (\\theta_{t}) &= \\sqrt{1-\\sin^2(\\theta_t)}\\\\&= \\sqrt{1 - "+b3.d.galS()+" ^2}\\\\& = "+b3.d.gm1()+"\\end{aligned}")],s)]],f))}i1=b3.d
-i2=i1.c6
-if(Math.abs(i2.b)>1e-9){i1=i1.bv(i2,B.l)
+i1.push(A.a([[i3],[i2,A.a([r,q,p,o,A.a3(f0+n+c3+m+" \\cdot "+l+"}{"+k+" \\cdot "+j.H(j.bP)+"} }  \\\\&="+a0+"\\end{aligned}"),A.a3("\\begin{aligned}\\cos (\\theta_{t}) &= \\sqrt{1-\\sin^2(\\theta_t)}\\\\&= \\sqrt{1 - "+b3.d.galS()+" ^2}\\\\& = "+b3.d.gm1()+"\\end{aligned}")],s)]],f))}i2=b3.d
+i3=i2.c6
+if(Math.abs(i3.b)>1e-9){i2=i2.bv(i3,B.l)
+i3=b3.d
+a2=i2+" = "+i3.bv(i3.c6,B.K)}else a2=i2.bv(i3,B.l)
 i2=b3.d
-a2=i1+" = "+i2.bv(i2.c6,B.K)}else a2=i1.bv(i2,B.l)
-i1=b3.d
-i2=i1.aN
-if(Math.abs(i2.b)>1e-9){i1=i1.bv(i2,B.l)
-i2=b3.d
-a3=i1+" = "+i2.bv(i2.aN,B.K)}else a3=i1.bv(i2,B.l)
-i1=A.b3("\\text{The reflection coeffcients }")
-i2=A.a3("\\Gamma_\\perp  = "+a2)
+i3=i2.aN
+if(Math.abs(i3.b)>1e-9){i2=i2.bv(i3,B.l)
+i3=b3.d
+a3=i2+" = "+i3.bv(i3.aN,B.K)}else a3=i2.bv(i3,B.l)
+i2=A.b3("\\text{The reflection coeffcients }")
+i3=A.a3("\\Gamma_\\perp  = "+a2)
 r=A.a3("\\Gamma_\\parallel = "+a3)
 q=A.a([A.b3("\\text{More details on } \\Gamma_\\perp ")],s)
 p=b3.d
@@ -87899,7 +87899,7 @@ j=j.bv(j.c1,B.l)
 i=b3.d.gm1()
 h=A.L(b3.d.bJ,!1,!1)
 g=b3.d
-i0.push(A.a([[i1,i2,r],[q,k],[l,A.a([A.a3("\\begin{aligned}\\Gamma_\\parallel &= \\frac{\\eta_2 \\cos\\theta_t-\\eta_1 \\cos \\theta_i}{\\eta_2 \\cos \\theta_t+\\eta_1 \\cos \\theta_i}\\\\&= \\frac{"+m+" \\cdot ("+n+")- "+o+" \\cdot \\cos("+p+")}{"+j+" \\cdot ("+i+") + "+h+" \\cdot \\cos("+g.m0(g.S)+")}\\\\&= "+a3+"\\end{aligned}")],s)]],f))
+i1.push(A.a([[i2,i3,r],[q,k],[l,A.a([A.a3("\\begin{aligned}\\Gamma_\\parallel &= \\frac{\\eta_2 \\cos\\theta_t-\\eta_1 \\cos \\theta_i}{\\eta_2 \\cos \\theta_t+\\eta_1 \\cos \\theta_i}\\\\&= \\frac{"+m+" \\cdot ("+n+")- "+o+" \\cdot \\cos("+p+")}{"+j+" \\cdot ("+i+") + "+h+" \\cdot \\cos("+g.m0(g.S)+")}\\\\&= "+a3+"\\end{aligned}")],s)]],f))
 g=A.b3("\\text{The transmission coeffcients}")
 h=b3.d
 h=h.bv(h.b_,B.l)
@@ -87934,12 +87934,12 @@ n=b3.d.gm1()
 o=A.L(b3.d.bJ,!1,!1)
 p=b3.d
 p=p.m0(p.S)
+i3=b3.d
+i3=i3.bv(i3.cB,B.l)
 i2=b3.d
-i2=i2.bv(i2.cB,B.l)
-i1=b3.d
-i0.push(A.a([[g,i,j],[h,r],[q,A.a([A.a3("\\begin{aligned}\\tau_\\parallel &= \\frac{2 \\eta_2 \\cos\\theta_i}{\\eta_2 \\cos \\theta_t+\\eta_1 \\cos \\theta_i}\\\\&= \\frac{2 \\cdot "+k+" \\cdot \\cos("+l+")}{"+m+" \\cdot (("+n+")) + "+o+" \\cdot \\cos("+p+")}\\\\&= "+i2+" = "+i1.bv(i1.cB,B.K)+"\\end{aligned}")],s)]],f))
-i1=A.b3("\\text{Direction of propagation of incident, reflected and transmitted waves}")
-i2=A.a3("\\vec{a}_{ki} = "+b3.d.gI8()+", ")
+i1.push(A.a([[g,i,j],[h,r],[q,A.a([A.a3("\\begin{aligned}\\tau_\\parallel &= \\frac{2 \\eta_2 \\cos\\theta_i}{\\eta_2 \\cos \\theta_t+\\eta_1 \\cos \\theta_i}\\\\&= \\frac{2 \\cdot "+k+" \\cdot \\cos("+l+")}{"+m+" \\cdot (("+n+")) + "+o+" \\cdot \\cos("+p+")}\\\\&= "+i3+" = "+i2.bv(i2.cB,B.K)+"\\end{aligned}")],s)]],f))
+i2=A.b3("\\text{Direction of propagation of incident, reflected and transmitted waves}")
+i3=A.a3("\\vec{a}_{ki} = "+b3.d.gI8()+", ")
 p=A.a3("\\vec{a}_{kr} = "+b3.d.gI9()+", ")
 o=b3.d
 n=o.dG(o.bO,B.l,!0,!0)
@@ -87955,7 +87955,7 @@ r=b3.d
 h=r.dG(r.bO,B.l,!0,!0)
 r=r.dG(r.cU,B.l,!0,!0)
 j=b3.d
-i0.push(A.a([[i1,i2,p,m],[o,n],[l,k],[q,A.a([A.a3("\\begin{aligned}\\vec{a}_{kt} &= \\sin (\\theta_{t}) \\overrightarrow{a_{\\text x}}  + \\cos (\\theta_{t}) \\overrightarrow{a_{\\text z}} \\\\&= "+(h+f1+r+f2)+"\\\\&= "+(j.e0(j.bO,B.K,!0)+f1+j.e0(j.cU,B.K,!0)+f2)+"\\end{aligned}")],s)]],f))
+i1.push(A.a([[i2,i3,p,m],[o,n],[l,k],[q,A.a([A.a3("\\begin{aligned}\\vec{a}_{kt} &= \\sin (\\theta_{t}) \\overrightarrow{a_{\\text x}}  + \\cos (\\theta_{t}) \\overrightarrow{a_{\\text z}} \\\\&= "+(h+f1+r+f2)+"\\\\&= "+(j.e0(j.bO,B.K,!0)+f1+j.e0(j.cU,B.K,!0)+f2)+"\\end{aligned}")],s)]],f))
 j=A.b3("\\text{Incident H field}")
 r=b3.d
 r=r.H(r.d)
@@ -87974,40 +87974,40 @@ n=A.c0(d0)
 o=A.a3("\\vec{E}_{i} = [\\hat{E}_{oi,\\|}(\\cos \\theta_i \\vec{a}_{x}-\\sin \\theta_i \\vec{a}_{z})+\\hat{E}_{oi,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_i\\mathbf{x}+\\cos\\theta_i\\mathbf{z})}")
 m=A.a3("\\overrightarrow{a_{\\text k}}  = \\sin\\theta_i\\vec{a}_{x}+\\cos\\theta_i \\vec{a}_{z}")
 p=A.a3("\\begin{aligned}\\vec{H}_{i} = & \\frac{1}{\\eta  _1}  (\\sin\\theta_i\\vec{a}_{x}+\\cos\\theta_i \\vec{a}_{z}) \\\\& \\times ([\\hat{E}_{oi,\\|}(\\cos \\theta_i \\vec{a}_{x}-\\sin \\theta_i \\vec{a}_{z})+\\hat{E}_{oi,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_i\\mathbf{x}+\\cos\\theta_i\\mathbf{z})}) \\\\=& \\frac{1}{\\eta  _1} \\begin{vmatrix}\\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}}  \\\\\\sin(\\theta_{i}) & 0 & \\cos(\\theta_{i})\\\\E_{oi,\\|}\\cos(\\theta_{i}) & E_{oi,\\perp} & -E_{oi,\\|}\\sin(\\theta_{i})\\\\\\end{vmatrix} e^{-jk(\\sin\\theta_i\\mathbf{x}+\\cos\\theta_i\\mathbf{z})}\\end{aligned}")
-i2=A.c0(d1)
-i1=b3.d
-i1=i1.H(i1.d)
+i3=A.c0(d1)
+i2=b3.d
+i2=i2.H(i2.d)
 i=b3.d
 i=i.H(i.e)
 g=b3.d
 g=g.H(g.f)
 a4=b3.d
-a4=A.a3("\\begin{aligned}\\vec{H}_{i} =& \\{\\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} 0 & \\cos(\\theta_{i})\\\\E_{oi,\\perp} & -E_{oi,\\|}\\sin(\\theta_{i})\\\\\\end{bmatrix} \\\\&- \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} \\sin(\\theta_{i}) & \\cos(\\theta_{i})\\\\E_{oi,\\|}\\cos(\\theta_{i}) & -E_{oi,\\|}\\sin(\\theta_{i})\\\\\\end{bmatrix} \\\\&+ \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} \\sin(\\theta_{i}) & 0\\\\E_{oi,\\|}\\cos(\\theta_{i}) & E_{oi,\\perp}\\\\\\end{bmatrix}  \\} e^{-jk(\\sin\\theta_i\\mathbf{x}+\\cos\\theta_i\\mathbf{z})}\\\\=& \\left[ -\\frac{E_{oi,\\perp}}{\\eta  _1} \\cos(\\theta_{i}) \\overrightarrow{a_{\\text x}} + \\frac{E_{oi,\\|}}{\\eta  _1} \\overrightarrow{a_{\\text y}} +\\frac{E_{oi,\\perp}}{\\eta  _1} \\sin(\\theta_{i}) \\overrightarrow{a_{\\text z}}  \\right] e^{-jk(\\sin\\theta_i\\mathbf{x}+\\cos\\theta_i\\mathbf{z})}\\\\=& ["+i1+f1+i+f5+g+f3+("e^{-j[("+A.L(a4.dc,!1,!1)+c6+A.L(a4.p,!1,!1)+") \\mathbf{z}]}")+"\\end{aligned}")
+a4=A.a3("\\begin{aligned}\\vec{H}_{i} =& \\{\\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} 0 & \\cos(\\theta_{i})\\\\E_{oi,\\perp} & -E_{oi,\\|}\\sin(\\theta_{i})\\\\\\end{bmatrix} \\\\&- \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} \\sin(\\theta_{i}) & \\cos(\\theta_{i})\\\\E_{oi,\\|}\\cos(\\theta_{i}) & -E_{oi,\\|}\\sin(\\theta_{i})\\\\\\end{bmatrix} \\\\&+ \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} \\sin(\\theta_{i}) & 0\\\\E_{oi,\\|}\\cos(\\theta_{i}) & E_{oi,\\perp}\\\\\\end{bmatrix}  \\} e^{-jk(\\sin\\theta_i\\mathbf{x}+\\cos\\theta_i\\mathbf{z})}\\\\=& \\left[ -\\frac{E_{oi,\\perp}}{\\eta  _1} \\cos(\\theta_{i}) \\overrightarrow{a_{\\text x}} + \\frac{E_{oi,\\|}}{\\eta  _1} \\overrightarrow{a_{\\text y}} +\\frac{E_{oi,\\perp}}{\\eta  _1} \\sin(\\theta_{i}) \\overrightarrow{a_{\\text z}}  \\right] e^{-jk(\\sin\\theta_i\\mathbf{x}+\\cos\\theta_i\\mathbf{z})}\\\\=& ["+i2+f1+i+f5+g+f3+("e^{-j[("+A.L(a4.dc,!1,!1)+c6+A.L(a4.p,!1,!1)+") \\mathbf{z}]}")+"\\end{aligned}")
 g=A.c0(d2)
 i=b3.d
 i=i.H(i.d)
-i1=b3.d
-i1=i1.H(i1.f)
+i2=b3.d
+i2=i2.H(i2.f)
 a5=b3.d
-a5=A.a3(c5+i+f1+i1+f3+("e^{-j[("+A.L(a5.dc,!1,!1)+c6+A.L(a5.p,!1,!1)+") \\mathbf{z}]}"))
-i1=b3.d
-i1=i1.H(i1.e)
+a5=A.a3(c5+i+f1+i2+f3+("e^{-j[("+A.L(a5.dc,!1,!1)+c6+A.L(a5.p,!1,!1)+") \\mathbf{z}]}"))
+i2=b3.d
+i2=i2.H(i2.e)
 i=b3.d
-i0.push(A.a([[j,q,r],[h,A.a([k,l,n,o,m,p,i2,a4,g,a5,A.a3(c7+i1+f4+("e^{-j[("+A.L(i.dc,!1,!1)+c6+A.L(i.p,!1,!1)+") \\mathbf{z}]}"))],s)]],f))
+i1.push(A.a([[j,q,r],[h,A.a([k,l,n,o,m,p,i3,a4,g,a5,A.a3(c7+i2+f4+("e^{-j[("+A.L(i.dc,!1,!1)+c6+A.L(i.p,!1,!1)+") \\mathbf{z}]}"))],s)]],f))
 i=A.b3("\\text{Reflected E field}")
-i1=b3.d
-i1=i1.H(i1.r)
+i2=b3.d
+i2=i2.H(i2.r)
 a5=b3.d
 a5=a5.H(a5.x)
 g=b3.d
-g=A.a3(d3+i1+f1+a5+f3+("e^{-j[("+A.L(g.dc,!1,!1)+d4+A.L(g.p,!1,!1)+") \\mathbf{z}]}"))
+g=A.a3(d3+i2+f1+a5+f3+("e^{-j[("+A.L(g.dc,!1,!1)+d4+A.L(g.p,!1,!1)+") \\mathbf{z}]}"))
 a5=b3.d
 a5=a5.H(a5.w)
-i1=b3.d
-i1=A.a3(d5+a5+f4+("e^{-j[("+A.L(i1.dc,!1,!1)+d4+A.L(i1.p,!1,!1)+") \\mathbf{z}]}"))
+i2=b3.d
+i2=A.a3(d5+a5+f4+("e^{-j[("+A.L(i2.dc,!1,!1)+d4+A.L(i2.p,!1,!1)+") \\mathbf{z}]}"))
 a5=A.a([A.b3("\\text{More details on } \\vec{E}_{or}")],s)
 a4=A.c0("The expression of reflected E field is given by")
-i2=A.a3(d6)
+i3=A.a3(d6)
 p=A.c0(d0)
 m=A.a3("\\theta_{r} = \\theta_{i}")
 o=A.a3("\\vec{E}_{or,\\|} = \\Gamma_\\parallel \\cdot \\vec{E}_{oi,\\|},\\quad \\vec{E}_{or,\\perp} = \\Gamma_\\perp  \\cdot \\vec{E}_{oi,\\perp}")
@@ -88027,7 +88027,7 @@ r=A.a3(d3+k+f1+l+f3+("e^{-j[("+A.L(r.dc,!1,!1)+d4+A.L(r.p,!1,!1)+") \\mathbf{z}]
 l=b3.d
 l=l.H(l.w)
 k=b3.d
-i0.push(A.a([[i,g,i1],[a5,A.a([a4,i2,p,m,o,n,h,r,A.a3(d5+l+f4+("e^{-j[("+A.L(k.dc,!1,!1)+d4+A.L(k.p,!1,!1)+") \\mathbf{z}]}"))],s)]],f))
+i1.push(A.a([[i,g,i2],[a5,A.a([a4,i3,p,m,o,n,h,r,A.a3(d5+l+f4+("e^{-j[("+A.L(k.dc,!1,!1)+d4+A.L(k.p,!1,!1)+") \\mathbf{z}]}"))],s)]],f))
 k=A.b3("\\text{Reflected H field}")
 l=b3.d
 l=l.H(l.y)
@@ -88044,44 +88044,44 @@ n=A.c0(c4)
 o=A.a3(c9)
 m=A.c0(d0)
 p=A.a3(d6)
-i2=A.a3("\\vec{a}_{kr} = \\sin\\theta_r\\vec{a}_{x}-\\cos\\theta_r \\vec{a}_{z}")
+i3=A.a3("\\vec{a}_{kr} = \\sin\\theta_r\\vec{a}_{x}-\\cos\\theta_r \\vec{a}_{z}")
 a4=A.a3("\\begin{aligned}\\vec{H}_{r} = & \\frac{1}{\\eta  _1}  (\\sin\\theta_r\\vec{a}_{x}-\\cos\\theta_r \\vec{a}_{z}) \\\\& \\times ([\\hat{E}_{or,\\|}(\\cos \\theta_r \\vec{a}_{x}+\\sin \\theta_r \\vec{a}_{z})+\\hat{E}_{or,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})}) \\\\=& \\frac{1}{\\eta  _1} \\begin{vmatrix}\\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}}  \\\\\\sin(\\theta_{r}) & 0 & -\\cos(\\theta_{r})\\\\E_{or,\\|}\\cos(\\theta_{r}) & E_{or,\\perp} & E_{or,\\|}\\sin(\\theta_{r})\\\\\\end{vmatrix} e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})}\\end{aligned}")
 a5=A.c0(d1)
-i1=b3.d
-i1=i1.H(i1.y)
+i2=b3.d
+i2=i2.H(i2.y)
 g=b3.d
 g=g.H(g.z)
 i=b3.d
 i=i.H(i.Q)
 q=b3.d
-q=A.a3("\\begin{aligned}\\vec{H}_{r} =& \\{\\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} 0 & -\\cos(\\theta_{r})\\\\E_{or,\\perp} & E_{or,\\|}\\sin(\\theta_{r})\\\\\\end{bmatrix} \\\\&- \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} \\sin(\\theta_{r}) & -\\cos(\\theta_{r})\\\\E_{or,\\|}\\cos(\\theta_{r}) & E_{or,\\|}\\sin(\\theta_{r})\\\\\\end{bmatrix} \\\\&+ \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} \\sin(\\theta_{r}) & 0\\\\E_{or,\\|}\\cos(\\theta_{r}) & E_{or,\\perp}\\\\\\end{bmatrix}  \\} e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})}\\\\=& \\left[ \\frac{E_{or,\\perp}}{\\eta  _1} \\cos(\\theta_{r}) \\overrightarrow{a_{\\text x}} - \\frac{E_{or,\\|}}{\\eta  _1} \\overrightarrow{a_{\\text y}} +\\frac{E_{or,\\perp}}{\\eta  _1} \\sin(\\theta_{r}) \\overrightarrow{a_{\\text z}}  \\right] e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})} \\\\=& ["+i1+f1+g+f5+i+f6+("e^{-j[("+A.L(q.dc,!1,!1)+d4+A.L(q.p,!1,!1)+") \\mathbf{z}]}")+"\\end{aligned}")
+q=A.a3("\\begin{aligned}\\vec{H}_{r} =& \\{\\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} 0 & -\\cos(\\theta_{r})\\\\E_{or,\\perp} & E_{or,\\|}\\sin(\\theta_{r})\\\\\\end{bmatrix} \\\\&- \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} \\sin(\\theta_{r}) & -\\cos(\\theta_{r})\\\\E_{or,\\|}\\cos(\\theta_{r}) & E_{or,\\|}\\sin(\\theta_{r})\\\\\\end{bmatrix} \\\\&+ \\frac{1}{\\eta  _1} \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} \\sin(\\theta_{r}) & 0\\\\E_{or,\\|}\\cos(\\theta_{r}) & E_{or,\\perp}\\\\\\end{bmatrix}  \\} e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})}\\\\=& \\left[ \\frac{E_{or,\\perp}}{\\eta  _1} \\cos(\\theta_{r}) \\overrightarrow{a_{\\text x}} - \\frac{E_{or,\\|}}{\\eta  _1} \\overrightarrow{a_{\\text y}} +\\frac{E_{or,\\perp}}{\\eta  _1} \\sin(\\theta_{r}) \\overrightarrow{a_{\\text z}}  \\right] e^{-jk(\\sin\\theta_r\\mathbf{x}-\\cos\\theta_r\\mathbf{z})} \\\\=& ["+i2+f1+g+f5+i+f6+("e^{-j[("+A.L(q.dc,!1,!1)+d4+A.L(q.p,!1,!1)+") \\mathbf{z}]}")+"\\end{aligned}")
 i=A.c0(d2)
 g=b3.d
 g=g.H(g.y)
-i1=b3.d
-i1=i1.H(i1.Q)
+i2=b3.d
+i2=i2.H(i2.Q)
 j=b3.d
-j=A.a3("\\vec{H}_{or,\\|} = ["+g+f1+i1+f3+("e^{-j[("+A.L(j.dc,!1,!1)+d4+A.L(j.p,!1,!1)+") \\mathbf{z}]}"))
-i1=b3.d
-i1=i1.H(i1.z)
+j=A.a3("\\vec{H}_{or,\\|} = ["+g+f1+i2+f3+("e^{-j[("+A.L(j.dc,!1,!1)+d4+A.L(j.p,!1,!1)+") \\mathbf{z}]}"))
+i2=b3.d
+i2=i2.H(i2.z)
 g=b3.d
-i0.push(A.a([[k,h,l],[r,A.a([n,o,m,p,i2,a4,a5,q,i,j,A.a3("\\vec{H}_{or,\\perp} = ["+i1+f7+("e^{-j[("+A.L(g.dc,!1,!1)+d4+A.L(g.p,!1,!1)+") \\mathbf{z}]}"))],s)]],f))
+i1.push(A.a([[k,h,l],[r,A.a([n,o,m,p,i3,a4,a5,q,i,j,A.a3("\\vec{H}_{or,\\perp} = ["+i2+f7+("e^{-j[("+A.L(g.dc,!1,!1)+d4+A.L(g.p,!1,!1)+") \\mathbf{z}]}"))],s)]],f))
 g=A.b3("\\text{Transmitted E field}")
-i1=b3.d
-i1=i1.H(i1.as)
+i2=b3.d
+i2=i2.H(i2.as)
 j=b3.d
 j=j.H(j.ax)
 i=b3.d
-i=A.a3(d7+i1+f1+j+f3+("e^{-j[("+i.e0(i.co.I(0,i.b8),B.l,!0)+c6+i.e0(i.co.I(0,i.b9),B.l,!0)+") \\mathbf{z}]}"))
+i=A.a3(d7+i2+f1+j+f3+("e^{-j[("+i.e0(i.co.I(0,i.b8),B.l,!0)+c6+i.e0(i.co.I(0,i.b9),B.l,!0)+") \\mathbf{z}]}"))
 j=b3.d
 j=j.H(j.at)
-i1=b3.d
-i1=A.a3(d8+j+f4+("e^{-j[("+i1.e0(i1.co.I(0,i1.b8),B.l,!0)+c6+i1.e0(i1.co.I(0,i1.b9),B.l,!0)+") \\mathbf{z}]}"))
+i2=b3.d
+i2=A.a3(d8+j+f4+("e^{-j[("+i2.e0(i2.co.I(0,i2.b8),B.l,!0)+c6+i2.e0(i2.co.I(0,i2.b9),B.l,!0)+") \\mathbf{z}]}"))
 j=A.a([A.b3("\\text{More details on } \\vec{E}_{ot}")],s)
 q=A.c0("The expression of transmitted E field is given by")
 a5=A.a3(d9)
 a4=A.c0(d0)
-i2=A.a3("\\theta_{t} = "+A.i(b3.d.gAz()))
+i3=A.a3("\\theta_{t} = "+A.i(b3.d.gAz()))
 p=A.a3("\\vec{E}_{ot,\\|} = \\tau_\\parallel \\cdot \\vec{E}_{oi,\\|},\\quad \\vec{E}_{ot,\\perp} = \\tau_\\perp  \\cdot \\vec{E}_{oi,\\perp}")
 m=A.c0(d2)
 o=b3.d
@@ -88101,7 +88101,7 @@ o=A.a3(d7+r+f1+n+f6+("e^{-j[("+o.e0(o.co.I(0,o.b8),B.l,!0)+c6+o.e0(o.co.I(0,o.b9
 n=b3.d
 n=n.H(n.at)
 r=b3.d
-i0.push(A.a([[g,i,i1],[j,A.a([q,a5,a4,i2,p,m,l,o,A.a3(d8+n+f7+("e^{-j[("+r.e0(r.co.I(0,r.b8),B.l,!0)+c6+r.e0(r.co.I(0,r.b9),B.l,!0)+") \\mathbf{z}]}"))],s)]],f))
+i1.push(A.a([[g,i,i2],[j,A.a([q,a5,a4,i3,p,m,l,o,A.a3(d8+n+f7+("e^{-j[("+r.e0(r.co.I(0,r.b8),B.l,!0)+c6+r.e0(r.co.I(0,r.b9),B.l,!0)+") \\mathbf{z}]}"))],s)]],f))
 r=A.b3("\\text{Transmitted H field}")
 n=b3.d
 n=n.H(n.ay)
@@ -88116,45 +88116,45 @@ n=A.a3(e1+o+f7+("e^{-j[("+n.e0(n.co.I(0,n.b8),B.l,!0)+c6+n.e0(n.co.I(0,n.b9),B.l
 o=A.a([A.c0(c8)],s)
 m=A.c0(c4)
 p=A.a3(c9)
-i2=A.c0(d0)
+i3=A.c0(d0)
 a4=A.a3(d9)
 a5=A.a3("\\vec{a}_{kt} = \\sin\\theta_t\\vec{a}_{x}+\\cos\\theta_t \\vec{a}_{z}")
 q=A.a3("\\begin{aligned}\\vec{H}_{t} = & \\frac{1}{\\eta  _2}  (\\sin\\theta_t\\vec{a}_{x}+\\cos\\theta_t \\vec{a}_{z}) \\\\& \\times ([\\hat{E}_{ot,\\|}(\\cos \\theta_t \\vec{a}_{x}-\\sin \\theta_t \\vec{a}_{z})+\\hat{E}_{ot,\\perp}\\vec{a}_{y}] e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}) \\\\=& \\frac{1}{\\eta  _2} \\begin{vmatrix}\\overrightarrow{a_{\\text x}}  & \\overrightarrow{a_{\\text y}}  & \\overrightarrow{a_{\\text z}}  \\\\\\sin(\\theta_{t}) & 0 & \\cos(\\theta_{t})\\\\E_{ot,\\|}\\cos(\\theta_{t}) & E_{ot,\\perp} & -E_{ot,\\|}\\sin(\\theta_{t})\\\\\\end{vmatrix}e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}\\end{aligned}")
 j=A.c0(d1)
-i1=b3.d
-i1=i1.H(i1.ay)
+i2=b3.d
+i2=i2.H(i2.ay)
 i=b3.d
 i=i.H(i.ch)
 g=b3.d
 g=g.H(g.CW)
 h=b3.d
-h=A.a3("\\begin{aligned}\\vec{H}_{t} =& \\{ \\frac{1}{\\eta  _2} \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} 0 & \\cos(\\theta_{t})\\\\E_{ot,\\perp} & -E_{ot,\\|}\\sin(\\theta_{t})\\\\\\end{bmatrix} \\\\&- \\frac{1}{\\eta  _2} \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} \\sin(\\theta_{t}) & \\cos(\\theta_{t})\\\\E_{ot,\\|}\\cos(\\theta_{t}) & -E_{ot,\\|}\\sin(\\theta_{t})\\\\\\end{bmatrix} \\\\&+ \\frac{1}{\\eta  _2} \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} \\sin(\\theta_{t}) & 0\\\\E_{ot,\\|}\\cos(\\theta_{t}) & E_{ot,\\perp}\\\\\\end{bmatrix}  \\}e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}\\\\=& \\left[-\\frac{E_{ot,\\perp}}{\\eta  _2} \\cos(\\theta_{t}) \\overrightarrow{a_{\\text x}} + \\frac{E_{ot,\\|}}{\\eta  _2} \\overrightarrow{a_{\\text y}} +\\frac{E_{ot,\\perp}}{\\eta  _2} \\sin(\\theta_{t}) \\overrightarrow{a_{\\text z}}  \\right] e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}\\\\=& ["+i1+f1+i+f5+g+f6+("e^{-j[("+h.e0(h.co.I(0,h.b8),B.l,!0)+c6+h.e0(h.co.I(0,h.b9),B.l,!0)+") \\mathbf{z}]}")+"\\end{aligned}")
+h=A.a3("\\begin{aligned}\\vec{H}_{t} =& \\{ \\frac{1}{\\eta  _2} \\overrightarrow{a_{\\text x}}  \\det \\begin{bmatrix} 0 & \\cos(\\theta_{t})\\\\E_{ot,\\perp} & -E_{ot,\\|}\\sin(\\theta_{t})\\\\\\end{bmatrix} \\\\&- \\frac{1}{\\eta  _2} \\overrightarrow{a_{\\text y}}  \\det \\begin{bmatrix} \\sin(\\theta_{t}) & \\cos(\\theta_{t})\\\\E_{ot,\\|}\\cos(\\theta_{t}) & -E_{ot,\\|}\\sin(\\theta_{t})\\\\\\end{bmatrix} \\\\&+ \\frac{1}{\\eta  _2} \\overrightarrow{a_{\\text z}}  \\det \\begin{bmatrix} \\sin(\\theta_{t}) & 0\\\\E_{ot,\\|}\\cos(\\theta_{t}) & E_{ot,\\perp}\\\\\\end{bmatrix}  \\}e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}\\\\=& \\left[-\\frac{E_{ot,\\perp}}{\\eta  _2} \\cos(\\theta_{t}) \\overrightarrow{a_{\\text x}} + \\frac{E_{ot,\\|}}{\\eta  _2} \\overrightarrow{a_{\\text y}} +\\frac{E_{ot,\\perp}}{\\eta  _2} \\sin(\\theta_{t}) \\overrightarrow{a_{\\text z}}  \\right] e^{-jk(\\sin\\theta_t\\mathbf{x}+\\cos\\theta_t\\mathbf{z})}\\\\=& ["+i2+f1+i+f5+g+f6+("e^{-j[("+h.e0(h.co.I(0,h.b8),B.l,!0)+c6+h.e0(h.co.I(0,h.b9),B.l,!0)+") \\mathbf{z}]}")+"\\end{aligned}")
 g=A.c0(d2)
 i=b3.d
 i=i.H(i.ay)
-i1=b3.d
-i1=i1.H(i1.CW)
+i2=b3.d
+i2=i2.H(i2.CW)
 k=b3.d
-k=A.a3(e0+i+f1+i1+f6+("e^{-j[("+k.e0(k.co.I(0,k.b8),B.l,!0)+c6+k.e0(k.co.I(0,k.b9),B.l,!0)+") \\mathbf{z}]}"))
-i1=b3.d
-i1=i1.H(i1.ch)
+k=A.a3(e0+i+f1+i2+f6+("e^{-j[("+k.e0(k.co.I(0,k.b8),B.l,!0)+c6+k.e0(k.co.I(0,k.b9),B.l,!0)+") \\mathbf{z}]}"))
+i2=b3.d
+i2=i2.H(i2.ch)
 i=b3.d
-i0.push(A.a([[r,l,n],[o,A.a([m,p,i2,a4,a5,q,j,h,g,k,A.a3(e1+i1+f7+("e^{-j[("+i.e0(i.co.I(0,i.b8),B.l,!0)+c6+i.e0(i.co.I(0,i.b9),B.l,!0)+") \\mathbf{z}]}"))],s)]],f))
+i1.push(A.a([[r,l,n],[o,A.a([m,p,i3,a4,a5,q,j,h,g,k,A.a3(e1+i2+f7+("e^{-j[("+i.e0(i.co.I(0,i.b8),B.l,!0)+c6+i.e0(i.co.I(0,i.b9),B.l,!0)+") \\mathbf{z}]}"))],s)]],f))
 i=A.b3("\\text{Time-averaging Ponying vector of incident wave}")
-i1=A.a3("\\overrightarrow{S}_i = \\overrightarrow{a_{\\text x}}  "+("("+A.L(b3.d.dx,!0,!1)+")")+f8+("("+A.L(b3.d.dy,!0,!1)+")")+f9+("("+A.L(b3.d.fr,!0,!1)+")")+" \\quad \\mathrm{W}/\\mathrm{m}^{2} ")
+i2=A.a3("\\overrightarrow{S}_i = \\overrightarrow{a_{\\text x}}  "+("("+A.L(b3.d.dx,!0,!1)+")")+f8+("("+A.L(b3.d.dy,!0,!1)+")")+f9+("("+A.L(b3.d.fr,!0,!1)+")")+g0)
 k=A.a([A.c0(c8)],s)
 g=A.a3(e2)
 h=b3.d
-if(h.d.gan()!==0){a6=g0+h.H(h.d)+g1
-if(h.e.gan()!==0)a6=a6+"+"+(g2+h.H(h.e)+g1)
-if(h.f.gan()!==0)a6=a6+"+"+(g3+h.H(h.f)+g1)}else if(h.e.gan()!==0){a6=g2+h.H(h.e)+g1
-if(h.f.gan()!==0)a6=a6+"+"+(g3+h.H(h.f)+g1)}else a6=h.f.gan()!==0?g3+h.H(h.f)+g1:e3
-i2=A.a3("\\begin{aligned}\\vec{H}_{i} \\vphantom{}^{*}  &= \\left( "+a6+g4+b3.d.gVP()+"\\end{aligned}")
+if(h.d.gan()!==0){a6=g1+h.H(h.d)+g2
+if(h.e.gan()!==0)a6=a6+"+"+(g3+h.H(h.e)+g2)
+if(h.f.gan()!==0)a6=a6+"+"+(g4+h.H(h.f)+g2)}else if(h.e.gan()!==0){a6=g3+h.H(h.e)+g2
+if(h.f.gan()!==0)a6=a6+"+"+(g4+h.H(h.f)+g2)}else a6=h.f.gan()!==0?g4+h.H(h.f)+g2:e3
+i3=A.a3("\\begin{aligned}\\vec{H}_{i} \\vphantom{}^{*}  &= \\left( "+a6+g5+b3.d.gVP()+"\\end{aligned}")
 r=b3.d
-if(r.a.gan()!==0){a6=g0+r.H(r.a)+g1
-if(r.b.gan()!==0)a6=a6+"+"+(g2+r.H(r.b)+g1)
-if(r.c.gan()!==0)a6=a6+"+"+(g3+r.H(r.c)+g1)}else if(r.b.gan()!==0){a6=g2+r.H(r.b)+g1
-if(r.c.gan()!==0)a6=a6+"+"+(g3+r.H(r.c)+g1)}else a6=r.c.gan()!==0?g3+r.H(r.c)+g1:e3
+if(r.a.gan()!==0){a6=g1+r.H(r.a)+g2
+if(r.b.gan()!==0)a6=a6+"+"+(g3+r.H(r.b)+g2)
+if(r.c.gan()!==0)a6=a6+"+"+(g4+r.H(r.c)+g2)}else if(r.b.gan()!==0){a6=g3+r.H(r.b)+g2
+if(r.c.gan()!==0)a6=a6+"+"+(g4+r.H(r.c)+g2)}else a6=r.c.gan()!==0?g4+r.H(r.c)+g2:e3
 r=b3.d.gVP()
 q=b3.d
 q=q.H(q.a)
@@ -88167,7 +88167,7 @@ n=n.H(n.d.aY())
 m=b3.d
 m=m.H(m.e.aY())
 l=b3.d
-l=A.a3(g5+a6+g6+r+g7+q+" & "+p+" & "+o+"\\\\"+n+" & "+m+" & "+l.H(l.f.aY())+g8)
+l=A.a3(g6+a6+g7+r+g8+q+" & "+p+" & "+o+"\\\\"+n+" & "+m+" & "+l.H(l.f.aY())+g9)
 m=A.c0(d1)
 n=b3.d
 n=n.H(n.b)
@@ -88198,29 +88198,29 @@ b0=b0.dG(b0.cx,B.K,!0,!0)
 b1=b3.d
 b1=b1.dG(b1.cy,B.K,!0,!0)
 b2=b3.d
-b2=A.a3(g9+n+" & "+o+"\\\\"+p+" & "+q+h0+r+" & "+j+"\\\\"+h+" & "+a4+h1+a5+" & "+a7+"\\\\"+a8+" & "+a9+h2+b0+h3+b1+f9+b2.dG(b2.db,B.K,!0,!0)+"\\quad \\mathrm{W}/\\mathrm{m}^{2} \\end{aligned}")
+b2=A.a3(h0+n+" & "+o+"\\\\"+p+" & "+q+h1+r+" & "+j+"\\\\"+h+" & "+a4+h2+a5+" & "+a7+"\\\\"+a8+" & "+a9+h3+b0+h4+b1+f9+b2.dG(b2.db,B.K,!0,!0)+"\\quad \\mathrm{W}/\\mathrm{m}^{2} \\end{aligned}")
 b1=b3.d
 b1=b1.dG(b1.cx,B.K,!0,!0)
 b0=b3.d
 b0=b0.dG(b0.cy,B.K,!0,!0)
 a9=b3.d
-i0.push(A.a([[i,i1],[k,A.a([g,i2,l,m,b2,A.a3(h4+b1+h3+b0+f9+a9.dG(a9.db,B.K,!0,!0)+h5+("("+A.L(b3.d.dx,!0,!1)+")")+f8+("("+A.L(b3.d.dy,!0,!1)+")")+f9+("("+A.L(b3.d.fr,!0,!1)+")")+"\\end{aligned}"),A.c0(e4),A.a3("\\begin{aligned}\\overrightarrow{S}  _i &= \\vec{a}_{ki} \\frac{1}{2} \\left| \\overrightarrow{E}  _i \\right|^2 \\text{Re}  \\left\\{ \\frac{1}{\\eta  _1} \\right\\} \\\\&= ("+b3.d.gI8()+e5+("("+A.L(b3.d.a.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.b.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.c.gan(),!0,!1)+")")+e6+A.L(b3.d.bJ,!1,!1)+h6+("("+A.L(b3.d.dx,!0,!1)+")")+h3+("("+A.L(b3.d.dy,!0,!1)+")")+f9+("("+A.L(b3.d.fr,!0,!1)+")")+h7)],s)]],f))
+i1.push(A.a([[i,i2],[k,A.a([g,i3,l,m,b2,A.a3(h5+b1+h4+b0+f9+a9.dG(a9.db,B.K,!0,!0)+h6+("("+A.L(b3.d.dx,!0,!1)+")")+f8+("("+A.L(b3.d.dy,!0,!1)+")")+f9+("("+A.L(b3.d.fr,!0,!1)+")")+"\\end{aligned}"),A.c0(e4),A.a3("\\begin{aligned}\\overrightarrow{S}  _i &= \\vec{a}_{ki} \\frac{1}{2} \\left| \\overrightarrow{E}  _i \\right|^2 \\text{Re}  \\left\\{ \\frac{1}{\\eta  _1} \\right\\} \\\\&= ("+b3.d.gI8()+e5+("("+A.L(b3.d.a.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.b.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.c.gan(),!0,!1)+")")+e6+A.L(b3.d.bJ,!1,!1)+h7+("("+A.L(b3.d.dx,!0,!1)+")")+h4+("("+A.L(b3.d.dy,!0,!1)+")")+f9+("("+A.L(b3.d.fr,!0,!1)+")")+h8)],s)]],f))
 a9=A.b3("\\text{Time-averaging Ponying vector of reflected wave}")
-b0=A.a3("\\overrightarrow{S}_r = \\overrightarrow{a_{\\text x}}  "+("("+A.L(b3.d.id,!0,!1)+")")+f8+("("+A.L(b3.d.k1,!0,!1)+")")+f9+("("+A.L(b3.d.k2,!0,!1)+")"))
+b0=A.a3("\\overrightarrow{S}_r = \\overrightarrow{a_{\\text x}}  "+("("+A.L(b3.d.id,!0,!1)+")")+f8+("("+A.L(b3.d.k1,!0,!1)+")")+f9+("("+A.L(b3.d.k2,!0,!1)+")")+g0)
 b1=A.a([A.c0(c8)],s)
 b2=A.a3(e2)
 m=b3.d
-if(m.y.gan()!==0){a6=g0+m.H(m.y)+h8
-if(m.z.gan()!==0)a6=a6+"+"+(g2+m.H(m.z)+h8)
-if(m.Q.gan()!==0)a6=a6+"+"+(g3+m.H(m.Q)+h8)}else if(m.z.gan()!==0){a6=g2+m.H(m.z)+h8
-if(m.Q.gan()!==0)a6=a6+"+"+(g3+m.H(m.Q)+h8)}else a6=m.Q.gan()!==0?g3+m.H(m.Q)+h8:e3
-i1=A.a3("\\begin{aligned}\\vec{H}_{r} \\vphantom{}^{*}  &= \\left( "+a6+g4+b3.d.gVR()+"\\end{aligned}")
-i2=b3.d
-if(i2.r.gan()!==0){a6=g0+i2.H(i2.r)+h8
-if(i2.w.gan()!==0)a6=a6+"+"+(g2+i2.H(i2.w)+h8)
-if(i2.x.gan()!==0)a6=a6+"+"+(g3+i2.H(i2.x)+h8)}else if(i2.w.gan()!==0){a6=g2+i2.H(i2.w)+h8
-if(i2.x.gan()!==0)a6=a6+"+"+(g3+i2.H(i2.x)+h8)}else a6=i2.x.gan()!==0?g3+i2.H(i2.x)+h8:e3
-i2=b3.d.gVR()
+if(m.y.gan()!==0){a6=g1+m.H(m.y)+h9
+if(m.z.gan()!==0)a6=a6+"+"+(g3+m.H(m.z)+h9)
+if(m.Q.gan()!==0)a6=a6+"+"+(g4+m.H(m.Q)+h9)}else if(m.z.gan()!==0){a6=g3+m.H(m.z)+h9
+if(m.Q.gan()!==0)a6=a6+"+"+(g4+m.H(m.Q)+h9)}else a6=m.Q.gan()!==0?g4+m.H(m.Q)+h9:e3
+i2=A.a3("\\begin{aligned}\\vec{H}_{r} \\vphantom{}^{*}  &= \\left( "+a6+g5+b3.d.gVR()+"\\end{aligned}")
+i3=b3.d
+if(i3.r.gan()!==0){a6=g1+i3.H(i3.r)+h9
+if(i3.w.gan()!==0)a6=a6+"+"+(g3+i3.H(i3.w)+h9)
+if(i3.x.gan()!==0)a6=a6+"+"+(g4+i3.H(i3.x)+h9)}else if(i3.w.gan()!==0){a6=g3+i3.H(i3.w)+h9
+if(i3.x.gan()!==0)a6=a6+"+"+(g4+i3.H(i3.x)+h9)}else a6=i3.x.gan()!==0?g4+i3.H(i3.x)+h9:e3
+i3=b3.d.gVR()
 r=b3.d
 r=r.H(r.r)
 q=b3.d
@@ -88232,7 +88232,7 @@ o=o.H(o.y.aY())
 n=b3.d
 n=n.H(n.z.aY())
 m=b3.d
-m=A.a3(g5+a6+g6+i2+g7+r+" & "+q+" & "+p+"\\\\"+o+" & "+n+" & "+m.H(m.Q.aY())+g8)
+m=A.a3(g6+a6+g7+i3+g8+r+" & "+q+" & "+p+"\\\\"+o+" & "+n+" & "+m.H(m.Q.aY())+g9)
 n=A.c0(d1)
 o=b3.d
 o=o.H(o.w)
@@ -88242,8 +88242,8 @@ q=b3.d
 q=q.H(q.z.aY())
 r=b3.d
 r=r.H(r.Q.aY())
-i2=b3.d
-i2=i2.H(i2.r)
+i3=b3.d
+i3=i3.H(i3.r)
 l=b3.d
 l=l.H(l.x)
 k=b3.d
@@ -88263,29 +88263,29 @@ a5=a5.dG(a5.fx,B.K,!0,!0)
 a7=b3.d
 a7=a7.dG(a7.fy,B.K,!0,!0)
 a8=b3.d
-a8=A.a3(g9+o+" & "+p+"\\\\"+q+" & "+r+h0+i2+" & "+l+"\\\\"+k+" & "+j+h1+i+" & "+h+"\\\\"+g+" & "+a4+h2+a5+h3+a7+f9+a8.dG(a8.fy,B.K,!0,!0)+"\\end{aligned}")
+a8=A.a3(h0+o+" & "+p+"\\\\"+q+" & "+r+h1+i3+" & "+l+"\\\\"+k+" & "+j+h2+i+" & "+h+"\\\\"+g+" & "+a4+h3+a5+h4+a7+f9+a8.dG(a8.fy,B.K,!0,!0)+"\\end{aligned}")
 a7=b3.d
 a7=a7.dG(a7.fx,B.K,!0,!0)
 a5=b3.d
 a5=a5.dG(a5.fy,B.K,!0,!0)
 a4=b3.d
-i0.push(A.a([[a9,b0],[b1,A.a([b2,i1,m,n,a8,A.a3(h4+a7+h3+a5+f9+a4.dG(a4.fy,B.K,!0,!0)+h5+("("+A.L(b3.d.id,!0,!1)+")")+f8+("("+A.L(b3.d.k1,!0,!1)+")")+f9+("("+A.L(b3.d.k2,!0,!1)+")")+"\\end{aligned}"),A.c0(e4),A.a3("\\begin{aligned}\\overrightarrow{S}  _r &= \\vec{a}_{kr} \\frac{1}{2} \\left| \\overrightarrow{E}  _r \\right|^2 \\text{Re}  \\left\\{ \\frac{1}{\\eta  _1} \\right\\} \\\\&= ("+b3.d.gI9()+e5+("("+A.L(b3.d.r.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.w.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.x.gan(),!0,!1)+")")+e6+A.L(b3.d.bJ,!1,!1)+h6+("("+A.L(b3.d.id,!0,!1)+")")+h3+("("+A.L(b3.d.k1,!0,!1)+")")+f9+("("+A.L(b3.d.k2,!0,!1)+")")+h7)],s)]],f))
+i1.push(A.a([[a9,b0],[b1,A.a([b2,i2,m,n,a8,A.a3(h5+a7+h4+a5+f9+a4.dG(a4.fy,B.K,!0,!0)+h6+("("+A.L(b3.d.id,!0,!1)+")")+f8+("("+A.L(b3.d.k1,!0,!1)+")")+f9+("("+A.L(b3.d.k2,!0,!1)+")")+"\\end{aligned}"),A.c0(e4),A.a3("\\begin{aligned}\\overrightarrow{S}  _r &= \\vec{a}_{kr} \\frac{1}{2} \\left| \\overrightarrow{E}  _r \\right|^2 \\text{Re}  \\left\\{ \\frac{1}{\\eta  _1} \\right\\} \\\\&= ("+b3.d.gI9()+e5+("("+A.L(b3.d.r.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.w.gan(),!0,!1)+")")+"^2 + "+("("+A.L(b3.d.x.gan(),!0,!1)+")")+e6+A.L(b3.d.bJ,!1,!1)+h7+("("+A.L(b3.d.id,!0,!1)+")")+h4+("("+A.L(b3.d.k1,!0,!1)+")")+f9+("("+A.L(b3.d.k2,!0,!1)+")")+h8)],s)]],f))
 a4=A.b3("\\text{Time-averaging Ponying vector of transmitted wave}")
-a5=A.a3("\\overrightarrow{S}_t = \\overrightarrow{a_{\\text x}}  "+("("+A.L(b3.d.p1,!0,!1)+")")+f8+("("+A.L(b3.d.p2,!0,!1)+")")+f9+("("+A.L(b3.d.p3,!0,!1)+")"))
+a5=A.a3("\\overrightarrow{S}_t = \\overrightarrow{a_{\\text x}}  "+("("+A.L(b3.d.p1,!0,!1)+")")+f8+("("+A.L(b3.d.p2,!0,!1)+")")+f9+("("+A.L(b3.d.p3,!0,!1)+")")+g0)
 a7=A.a([A.c0(c8)],s)
 a8=A.a3(e2)
 n=b3.d
-if(n.ay.gan()!==0){a6=g0+n.H(n.ay)+h9
-if(n.ch.gan()!==0)a6=a6+"+"+(g2+n.H(n.ch)+h9)
-if(n.CW.gan()!==0)a6=a6+"+"+(g3+n.H(n.CW)+h9)}else if(n.ch.gan()!==0){a6=g2+n.H(n.ch)+h9
-if(n.CW.gan()!==0)a6=a6+"+"+(g3+n.H(n.CW)+h9)}else a6=n.CW.gan()!==0?g3+n.H(n.CW)+h9:e3
-i1=A.a3("\\begin{aligned}\\vec{H}_{t} \\vphantom{}^{*}  &= \\left( "+a6+g4+b3.d.gVS()+"\\end{aligned}")
-i2=b3.d
-if(i2.as.gan()!==0){a6=g0+i2.H(i2.as)+h9
-if(i2.at.gan()!==0)a6=a6+"+"+(g2+i2.H(i2.at)+h9)
-if(i2.ax.gan()!==0)a6=a6+"+"+(g3+i2.H(i2.ax)+h9)}else if(i2.at.gan()!==0){a6=g2+i2.H(i2.at)+h9
-if(i2.ax.gan()!==0)a6=a6+"+"+(g3+i2.H(i2.ax)+h9)}else a6=i2.ax.gan()!==0?g3+i2.H(i2.ax)+h9:e3
-i2=b3.d.gVS()
+if(n.ay.gan()!==0){a6=g1+n.H(n.ay)+i0
+if(n.ch.gan()!==0)a6=a6+"+"+(g3+n.H(n.ch)+i0)
+if(n.CW.gan()!==0)a6=a6+"+"+(g4+n.H(n.CW)+i0)}else if(n.ch.gan()!==0){a6=g3+n.H(n.ch)+i0
+if(n.CW.gan()!==0)a6=a6+"+"+(g4+n.H(n.CW)+i0)}else a6=n.CW.gan()!==0?g4+n.H(n.CW)+i0:e3
+i2=A.a3("\\begin{aligned}\\vec{H}_{t} \\vphantom{}^{*}  &= \\left( "+a6+g5+b3.d.gVS()+"\\end{aligned}")
+i3=b3.d
+if(i3.as.gan()!==0){a6=g1+i3.H(i3.as)+i0
+if(i3.at.gan()!==0)a6=a6+"+"+(g3+i3.H(i3.at)+i0)
+if(i3.ax.gan()!==0)a6=a6+"+"+(g4+i3.H(i3.ax)+i0)}else if(i3.at.gan()!==0){a6=g3+i3.H(i3.at)+i0
+if(i3.ax.gan()!==0)a6=a6+"+"+(g4+i3.H(i3.ax)+i0)}else a6=i3.ax.gan()!==0?g4+i3.H(i3.ax)+i0:e3
+i3=b3.d.gVS()
 r=b3.d
 r=r.H(r.as)
 q=b3.d
@@ -88297,7 +88297,7 @@ o=o.H(o.ay.aY())
 n=b3.d
 n=n.H(n.ch.aY())
 m=b3.d
-m=A.a3(g5+a6+g6+i2+g7+r+" & "+q+" & "+p+"\\\\"+o+" & "+n+" & "+m.H(m.CW.aY())+g8)
+m=A.a3(g6+a6+g7+i3+g8+r+" & "+q+" & "+p+"\\\\"+o+" & "+n+" & "+m.H(m.CW.aY())+g9)
 n=A.c0(d1)
 o=b3.d
 o=o.H(o.at)
@@ -88307,8 +88307,8 @@ q=b3.d
 q=q.H(q.ch.aY())
 r=b3.d
 r=r.H(r.CW.aY())
-i2=b3.d
-i2=i2.H(i2.as)
+i3=b3.d
+i3=i3.H(i3.as)
 l=b3.d
 l=l.H(l.ax)
 k=b3.d
@@ -88328,13 +88328,13 @@ b0=b0.dG(b0.k3,B.K,!0,!0)
 b1=b3.d
 b1=b1.dG(b1.k4,B.K,!0,!0)
 b2=b3.d
-b2=A.a3(g9+o+" & "+p+"\\\\"+q+" & "+r+h0+i2+" & "+l+"\\\\"+k+" & "+j+h1+i+" & "+h+"\\\\"+g+" & "+a9+h2+b0+h3+b1+f9+b2.dG(b2.ok,B.K,!0,!0)+"\\end{aligned}")
+b2=A.a3(h0+o+" & "+p+"\\\\"+q+" & "+r+h1+i3+" & "+l+"\\\\"+k+" & "+j+h2+i+" & "+h+"\\\\"+g+" & "+a9+h3+b0+h4+b1+f9+b2.dG(b2.ok,B.K,!0,!0)+"\\end{aligned}")
 b1=b3.d
 b1=b1.dG(b1.k3,B.K,!0,!0)
 b0=b3.d
 b0=b0.dG(b0.k4,B.K,!0,!0)
 a9=b3.d
-a9=A.a3("\\begin{aligned}\\overrightarrow{S}_t = \\frac{1}{2} \\text{Re}  \\left\\{ \\overrightarrow{a_{\\text x}}  "+b1+h3+b0+f9+a9.dG(a9.ok,B.K,!0,!0)+h5+("("+A.L(b3.d.p1,!0,!1)+")")+f8+("("+A.L(b3.d.p2,!0,!1)+")")+f9+("("+A.L(b3.d.p3,!0,!1)+")")+"\\end{aligned}")
+a9=A.a3("\\begin{aligned}\\overrightarrow{S}_t = \\frac{1}{2} \\text{Re}  \\left\\{ \\overrightarrow{a_{\\text x}}  "+b1+h4+b0+f9+a9.dG(a9.ok,B.K,!0,!0)+h6+("("+A.L(b3.d.p1,!0,!1)+")")+f8+("("+A.L(b3.d.p2,!0,!1)+")")+f9+("("+A.L(b3.d.p3,!0,!1)+")")+"\\end{aligned}")
 b0=A.c0(e4)
 b1=b3.d
 g=b1.dG(b1.bO,B.l,!0,!0)
@@ -88343,8 +88343,8 @@ h=A.L(b3.d.as.gan(),!0,!1)
 i=A.L(b3.d.at.gan(),!0,!1)
 j=A.L(b3.d.ax.gan(),!0,!1)
 k=b3.d
-i0.push(A.a([[a4,a5],[a7,A.a([a8,i1,m,n,b2,a9,b0,A.a3("\\begin{aligned}\\overrightarrow{S}  _t &= \\vec{a}_{kt} \\frac{1}{2} \\left| \\overrightarrow{E}  _t \\right|^2 \\text{Re}  \\left\\{ \\frac{1}{\\eta  _2} \\right\\} \\\\&= ("+(g+f1+b1+f2)+e5+("("+h+")")+"^2 + "+("("+i+")")+"^2 + "+("("+j+")")+e6+k.bv(k.c1,B.l)+h6+("("+A.L(b3.d.p1,!0,!1)+")")+h3+("("+A.L(b3.d.p2,!0,!1)+")")+f9+("("+A.L(b3.d.p3,!0,!1)+")")+h7)],s)]],f))
-return A.bN(b4,new A.w5(i0,b4),b4,b4,b4,b4,new A.aG(16,0,16,0),b4,b4)}}
+i1.push(A.a([[a4,a5],[a7,A.a([a8,i2,m,n,b2,a9,b0,A.a3("\\begin{aligned}\\overrightarrow{S}  _t &= \\vec{a}_{kt} \\frac{1}{2} \\left| \\overrightarrow{E}  _t \\right|^2 \\text{Re}  \\left\\{ \\frac{1}{\\eta  _2} \\right\\} \\\\&= ("+(g+f1+b1+f2)+e5+("("+h+")")+"^2 + "+("("+i+")")+"^2 + "+("("+j+")")+e6+k.bv(k.c1,B.l)+h7+("("+A.L(b3.d.p1,!0,!1)+")")+h4+("("+A.L(b3.d.p2,!0,!1)+")")+f9+("("+A.L(b3.d.p3,!0,!1)+")")+h8)],s)]],f))
+return A.bN(b4,new A.w5(i1,b4),b4,b4,b4,b4,new A.aG(16,0,16,0),b4,b4)}}
 A.Bz.prototype={
 av(){return new A.Xg(B.n)}}
 A.Xg.prototype={
